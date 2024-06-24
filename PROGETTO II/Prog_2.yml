@@ -1,0 +1,43 @@
+prefixes:
+  l0: https://w3id.org/italia/onto/l0/
+  cov: https://w3id.org/italia/onto/COV/
+  clv: https://w3id.org/italia/onto/CLV/
+  prj: https://w3id.org/italia/onto/PRJ/
+
+mappings:
+  PublicOrganization:
+    sources:
+      - [Prog_2.csv~csv]
+    s: https://esame.MITD.it/data/PublicOrganization/$(codice_IPA)
+    po:
+      - [a, cov:PublicOrganization]
+      - [cov:IPACode, $(codice_IPA)]
+      - [cov:legalName, $(nome_ente)]
+      - [clv:hasSpatialCoverage, https://esame.MITD.it/data/City/$(codice_ISTAT_comune)~iri]
+      - [prj:isInvolvedInProject, https://esame.MITD.it/data/PublicInvestmentProject/$(codice_finanziamento)~iri]
+
+  City:
+    sources:
+      - [Prog_2.csv~csv]
+    s: https://esame.MITD.it/data/City/$(codice_ISTAT_comune)
+    po:
+      - [a, clv:City]
+      - [l0:name, $(comune)]
+      - [l0:identifier, $(codice_ISTAT_comune)]
+
+  PublicInvestmentProject:
+    sources:
+      - [Prog_2.csv~csv]
+    s: https://esame.MITD.it/data/PublicInvestmentProject/$(codice_finanziamento)
+    po:
+      - [a, prj:PublicInvestmentProject]
+      - [prj:projectTotalCost, $(importo_finanziamento)]
+      - [prj:hasCall, https://esame.MITD.it/data/Call/$(codice_avviso_PNRR)~iri]
+
+  Call:
+    sources:
+      - [Prog_2.csv~csv]
+    s: https://esame.MITD.it/data/Call/$(codice_avviso_PNRR)
+    po:
+      - [a, prj:Call]
+      - [l0:name, $(avviso_PNRR)]
