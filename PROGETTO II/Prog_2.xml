@@ -17,7 +17,7 @@
 
 <http://esame.MITD.it/data/dataset/1a234-b5c6> a dcatapit:Dataset , dcat:Dataset ;
   dct:identifier “fin_PNRR:1a234-b5c6" ;
-  dct:description "‪Il dataset raccoglie i dati relativi ai finanziamenti PNRR ricevuti da alcuni enti tra cui: il nome dell'ente e il relativo CodiceIPA, il nome del comune e il relativo CodiceISTAT, l'importo del finanziamento e il relativo ID, l'avviso PNNR e il relativo ID‬" @it ;
+  dct:description "Il dataset raccoglie i dati relativi ai finanziamenti PNRR ricevuti da alcuni enti tra cui: il nome dell'ente e il relativo CodiceIPA, il nome del comune e il relativo CodiceISTAT, l'importo del finanziamento e il relativo ID, l'avviso PNNR e il relativo ID" @it ;
   dct:modified "2024-06-24"^^xsd:date ;
   dct:rightsHolder <http://esame.MITD.it/data/organization/presidenza_consiglio_ministri> ;
   dct:title "Dati sugli investimenti pubblici"@it ;
