@@ -1,0 +1,157 @@
+@prefix l0: <https://w3id.org/italia/onto/l0/>.
+@prefix cov: <https://w3id.org/italia/onto/COV/>.
+@prefix clv: <https://w3id.org/italia/onto/CLV/>.
+@prefix prj: <https://w3id.org/italia/onto/PRJ/>.
+
+<https://esame.MITD.it/data/PublicOrganization/c_g875> a cov:PublicOrganization ;
+    cov:IPACode "c_g875" ;
+    cov:legalName "Comune_di_Ponzano_Veneto" ;
+    clv:hasSpatialCoverage <https://esame.MITD.it/data/City/026059> ;
+    prj:isInvolvedInProject <https://esame.MITD.it/data/PublicInvestmentProject/1111> .
+
+<https://esame.MITD.it/data/City/026059> a clv:City ;
+    l0:name "Ponzano_Veneto" ;
+    l0:identifier "026059" .
+
+<https://esame.MITD.it/data/PublicInvestmentProject/1111> a prj:PublicInvestmentProject ;
+    prj:projectTotalCost 5142.0 ;
+    prj:hasCall <https://esame.MITD.it/data/Call/1.4.3> .
+
+<https://esame.MITD.it/data/Call/1.4.3_pagoPA_Comuni_maggio_2023> a prj:Call ;
+    l0:name "1.4.3_pagoPA_Comuni_maggio_2023" .
+
+<https://esame.MITD.it/data/PublicOrganization/c_c123> a cov:PublicOrganization ;
+    cov:IPACode "c_c123" ;
+    cov:legalName "Comune_di_Castelguidone" ;
+    clv:hasSpatialCoverage <https://esame.MITD.it/data/City/069019> ;
+    prj:isInvolvedInProject <https://esame.MITD.it/data/PublicInvestmentProject/2222> .
+
+<https://esame.MITD.it/data/City/069019> a clv:City ;
+    l0:name "Castelguidone" ;
+    l0:identifier "069019" .
+
+<https://esame.MITD.it/data/PublicInvestmentProject/2222> a prj:PublicInvestmentProject ;
+    prj:projectTotalCost 3642.0 ;
+    prj:hasCall <https://esame.MITD.it/data/Call/1.4.3> .
+
+<https://esame.MITD.it/data/Call/1.4.3_pagoPA_Comuni_maggio_2023> a prj:Call ;
+    l0:name "1.4.3_pagoPA_Comuni_maggio_2023" .
+
+<https://esame.MITD.it/data/PublicOrganization/c_l474> a cov:PublicOrganization ;
+    cov:IPACode "c_l474" ;
+    cov:legalName "Comune_di_Turriaco" ;
+    clv:hasSpatialCoverage <https://esame.MITD.it/data/City/031024> ;
+    prj:isInvolvedInProject <https://esame.MITD.it/data/PublicInvestmentProject/3333> .
+
+<https://esame.MITD.it/data/City/031024> a clv:City ;
+    l0:name "Turriaco" ;
+    l0:identifier "031024" .
+
+<https://esame.MITD.it/data/PublicInvestmentProject/3333> a prj:PublicInvestmentProject ;
+    prj:projectTotalCost 10172.0 ;
+    prj:hasCall <https://esame.MITD.it/data/Call/1.3.1> .
+
+<https://esame.MITD.it/data/Call/1.3.1_Piattaforma_Digitale_Nazionale_Dati_Comuni_ottobre_2022> a prj:Call ;
+    l0:name "1.3.1_Piattaforma_Digitale_Nazionale_Dati_Comuni_ottobre_2022" .
+
+<https://esame.MITD.it/data/PublicOrganization/c_h017> a cov:PublicOrganization ;
+    cov:IPACode "c_h017" ;
+    cov:legalName "Comune_di_Predappio" ;
+    clv:hasSpatialCoverage <https://esame.MITD.it/data/City/040032> ;
+    prj:isInvolvedInProject <https://esame.MITD.it/data/PublicInvestmentProject/4444> .
+
+<https://esame.MITD.it/data/City/040032> a clv:City ;
+    l0:name "Predappio" ;
+    l0:identifier "040032" .
+
+<https://esame.MITD.it/data/PublicInvestmentProject/4444> a prj:PublicInvestmentProject ;
+    prj:projectTotalCost 14000.0 ;
+    prj:hasCall <https://esame.MITD.it/data/Call/1.4.4> .
+
+<https://esame.MITD.it/data/Call/1.4.4_Adozione_SPID_CIE_Comuni_settembre_2022> a prj:Call ;
+    l0:name "1.4.4_Adozione_SPID_CIE_Comuni_settembre_2022" .
+
+<https://esame.MITD.it/data/PublicOrganization/c_l474> a cov:PublicOrganization ;
+    cov:IPACode "c_l474" ;
+    cov:legalName "Comune_di_Turriaco" ;
+    clv:hasSpatialCoverage <https://esame.MITD.it/data/City/031024> ;
+    prj:isInvolvedInProject <https://esame.MITD.it/data/PublicInvestmentProject/5555> .
+
+<https://esame.MITD.it/data/City/031024> a clv:City ;
+    l0:name "Turriaco" ;
+    l0:identifier "031024" .
+
+<https://esame.MITD.it/data/PublicInvestmentProject/5555> a prj:PublicInvestmentProject ;
+    prj:projectTotalCost 77897.0 ;
+    prj:hasCall <https://esame.MITD.it/data/Call/1.2> .
+
+<https://esame.MITD.it/data/Call/1.2_Abilitazione_al_Cloud_Comuni_luglio_2022> a prj:Call ;
+    l0:name "1.2_Abilitazione_al_Cloud_Comuni_luglio_2022" .
+
+<https://esame.MITD.it/data/PublicOrganization/c_l503> a cov:PublicOrganization ;
+    cov:IPACode "c_l503" ;
+    cov:legalName "Comune_di_Uri" ;
+    clv:hasSpatialCoverage <https://esame.MITD.it/data/City/090076> ;
+    prj:isInvolvedInProject <https://esame.MITD.it/data/PublicInvestmentProject/6666> .
+
+<https://esame.MITD.it/data/City/090076> a clv:City ;
+    l0:name "Uri" ;
+    l0:identifier "090076" .
+
+<https://esame.MITD.it/data/PublicInvestmentProject/6666> a prj:PublicInvestmentProject ;
+    prj:projectTotalCost 17603.0 ;
+    prj:hasCall <https://esame.MITD.it/data/Call/1.4.3> .
+
+<https://esame.MITD.it/data/Call/1.4.3_pagoPA_Comuni_settembre_2022> a prj:Call ;
+    l0:name "1.4.3_pagoPA_Comuni_settembre_2022" .
+
+<https://esame.MITD.it/data/PublicOrganization/c_c167> a cov:PublicOrganization ;
+    cov:IPACode "c_c167" ;
+    cov:legalName "Comune_di_Castelletto_Uzzone" ;
+    clv:hasSpatialCoverage <https://esame.MITD.it/data/City/004050> ;
+    prj:isInvolvedInProject <https://esame.MITD.it/data/PublicInvestmentProject/7777> .
+
+<https://esame.MITD.it/data/City/004050> a clv:City ;
+    l0:name "Castelletto_Uzzone" ;
+    l0:identifier "004050" .
+
+<https://esame.MITD.it/data/PublicInvestmentProject/7777> a prj:PublicInvestmentProject ;
+    prj:projectTotalCost 12747.0 ;
+    prj:hasCall <https://esame.MITD.it/data/Call/1.4.3> .
+
+<https://esame.MITD.it/data/Call/1.4.3_pagoPA_Comuni_maggio_2023> a prj:Call ;
+    l0:name "1.4.3_pagoPA_Comuni_maggio_2023" .
+
+<https://esame.MITD.it/data/PublicOrganization/c_f205> a cov:PublicOrganization ;
+    cov:IPACode "c_f205" ;
+    cov:legalName "Comune_di_Milano" ;
+    clv:hasSpatialCoverage <https://esame.MITD.it/data/City/015146> ;
+    prj:isInvolvedInProject <https://esame.MITD.it/data/PublicInvestmentProject/8888> .
+
+<https://esame.MITD.it/data/City/015146> a clv:City ;
+    l0:name "Milano" ;
+    l0:identifier "015146" .
+
+<https://esame.MITD.it/data/PublicInvestmentProject/8888> a prj:PublicInvestmentProject ;
+    prj:projectTotalCost 97247.0 ;
+    prj:hasCall <https://esame.MITD.it/data/Call/1.4.5> .
+
+<https://esame.MITD.it/data/Call/1.4.5_Piattaforma_Notifiche_Digitali_Comuni_settembre_2022> a prj:Call ;
+    l0:name "1.4.5_Piattaforma_Notifiche_Digitali_Comuni_settembre_2022" .
+
+<https://esame.MITD.it/data/PublicOrganization/c_d903> a cov:PublicOrganization ;
+    cov:IPACode "c_d903" ;
+    cov:legalName "Comune_di_Gandellino" ;
+    clv:hasSpatialCoverage <https://esame.MITD.it/data/City/016107> ;
+    prj:isInvolvedInProject <https://esame.MITD.it/data/PublicInvestmentProject/9999> .
+
+<https://esame.MITD.it/data/City/016107> a clv:City ;
+    l0:name "Gandellino" ;
+    l0:identifier "016107" .
+
+<https://esame.MITD.it/data/PublicInvestmentProject/9999> a prj:PublicInvestmentProject ;
+    prj:projectTotalCost 79922.0 ;
+    prj:hasCall <https://esame.MITD.it/data/Call/1.4.1> .
+
+<https://esame.MITD.it/data/Call/1.4.1_Esperienza_del_Cittadino_Comuni_settembre_2022> a prj:Call ;
+    l0:name "1.4.1_Esperienza_del_Cittadino_Comuni_settembre_2022" .
