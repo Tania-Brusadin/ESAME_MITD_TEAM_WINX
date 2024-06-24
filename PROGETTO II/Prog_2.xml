@@ -1,0 +1,57 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatapit: <https://w3id.org/italia/onto/DCATAPIT/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
+
+*CATALOGO
+
+<http://esame.MITD.it/catalog/fin_PNRR_catalog> a dcatapit:Catalog , dcat:Catalog ;
+  dct:title "Catalogo OpenData dei finanziamenti PNRR”@it ;
+  dct:description “Il catalogo dei dati aperti dei finanziamenti PNRR in alcuni enti”@it ;
+  dct:modified "2024-06-24"^^xsd:date ;
+  dct:publisher <http://esame.MITD.it/organisation/team> ;
+  dcat:dataset <http://esame.MITD.it/data/dataset/1a234-b5c6> .
+
+*DATASET
+
+<http://esame.MITD.it/data/dataset/1a234-b5c6> a dcatapit:Dataset , dcat:Dataset ;
+  dct:identifier “fin_PNRR:1a234-b5c6" ;
+  dct:description "‪Il dataset raccoglie i dati relativi ai finanziamenti PNRR ricevuti da alcuni enti tra cui: il nome dell'ente e il relativo CodiceIPA, il nome del comune e il relativo CodiceISTAT, l'importo del finanziamento e il relativo ID, l'avviso PNNR e il relativo ID‬"@it ;
+  dct:modified "2024-06-24"^^xsd:date ;
+  dct:rightsHolder <http://esame.MITD.it/data/organization/presidenza_consiglio_ministri> ;
+  dct:title "Dati sugli investimenti pubblici"@it ;
+  dcat:distribution <http://esame.MITD.it/data/distribution/1a234-b5c6-csv> ;
+  dcat:theme <https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/temi.html#ScienzaETecnologia> ;
+  dct:accrualPeriodicity <https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/temi.html#ScienzaETecnologia/frequency/UNKNOWN> . 
+
+*DISTRIBUTION
+
+<http://esame.MITD.it/data/distribution/1a234-b5c6-csv> a dcatapit:Distribution , dcat:Distribution ;
+  dct:format <https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/temi.html#ScienzaETecnologia/file-type/CSV> ;
+  dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+  dcat:accessURL <http://esame.MITD.it/api/views/1a234-b5c6/rows.csv?accessType=DOWNLOAD> .
+  
+<http://esame.MITD.it/data/distribution/1a234-b5c6-json> a dcatapit:Distribution , dcat:Distribution ;
+  dct:format <https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/temi.html#ScienzaETecnologia/file-type/JSON> ;
+  dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+  dcat:accessURL <http://esame.MITD.it/api/views/1a234-b5c6/rows.json?accessType=DOWNLOAD> .
+
+<http://esame.MITD.it/data/distribution/1a234-b5c6-ttl> a dcatapit:Distribution , dcat:Distribution ;
+  dct:format <https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/temi.html#ScienzaETecnologia/file-type/TTL> ;
+  dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+  dcat:accessURL <http://esame.MITD.it/api/views/1a234-b5c6/rows.ttl?accessType=DOWNLOAD> .
+
+*PUBLISHER
+
+<http://esame.MITD.it/organisation/team> a dcatapit:Agent , foaf:Agent ;
+  dct:identifier “team” ;
+  foaf:name “Team Winx” .
+
+*RIGHTS HOLDER
+  
+<http://esame.MITD.it/organisation/presidenza_consiglio_ministri> a dcatapit:Agent , foaf:Agent ;
+  dct:identifier “pres_consiglio_min” ;
+  foaf:name “Presidenza del Consiglio dei Ministri” .
+
+
