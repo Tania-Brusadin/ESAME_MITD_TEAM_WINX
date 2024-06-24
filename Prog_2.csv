@@ -1,0 +1,10 @@
+﻿codice_IPA,nome_ente,comune,codice_ISTAT_comune,importo_finanziamento,codice_finanziamento,avviso_PNRR,codice_avviso_PNRR
+c_g875,Comune_di_Ponzano_Veneto,Ponzano_Veneto,026059,5142.0,1111,1.4.3_pagoPA_Comuni_maggio_2023,1.4.3
+c_c123,Comune_di_Castelguidone,Castelguidone,069019,3642.0,2222,1.4.3_pagoPA_Comuni_maggio_2023,1.4.3
+c_l474,Comune_di_Turriaco,Turriaco,031024,10172.0,3333,1.3.1_Piattaforma_Digitale_Nazionale_Dati_Comuni_ottobre_2022,1.3.1
+c_h017,Comune_di_Predappio,Predappio,040032,14000.0,4444,1.4.4_Adozione_SPID_CIE_Comuni_settembre_2022,1.4.4
+c_l474,Comune_di_Turriaco,Turriaco,031024,77897.0,5555,1.2_Abilitazione_al_Cloud_Comuni_luglio_2022,1.2
+c_l503,Comune_di_Uri,Uri,090076,17603.0,6666,1.4.3_pagoPA_Comuni_settembre_2022,1.4.3
+c_c167,Comune_di_Castelletto_Uzzone,Castelletto_Uzzone,004050,12747.0,7777,1.4.3_pagoPA_Comuni_maggio_2023,1.4.3
+c_f205,Comune_di_Milano,Milano,015146,97247.0,8888,1.4.5_Piattaforma_Notifiche_Digitali_Comuni_settembre_2022,1.4.5
+c_d903,Comune_di_Gandellino,Gandellino,016107,79922.0,9999,1.4.1_Esperienza_del_Cittadino_Comuni_settembre_2022,1.4.1
