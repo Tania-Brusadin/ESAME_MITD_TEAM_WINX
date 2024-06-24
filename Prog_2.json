@@ -1,0 +1,92 @@
+[
+    {
+        "codice_IPA": "c_g875",
+        "nome_ente": "Comune_di_Ponzano_Veneto",
+        "comune": "Ponzano_Veneto",
+        "codice_ISTAT_comune": "026059",
+        "importo_finanziamento": 5142.0,
+        "codice_finanziamento": "1111",
+        "avviso_PNRR": "1.4.3_pagoPA_Comuni_maggio_2023",
+        "codice_avviso_PNRR": "1.4.3"
+    },
+    {
+        "codice_IPA": "c_c123",
+        "nome_ente": "Comune_di_Castelguidone",
+        "comune": "Castelguidone",
+        "codice_ISTAT_comune": "069019",
+        "importo_finanziamento": 3642.0,
+        "codice_finanziamento": "2222",
+        "avviso_PNRR": "1.4.3_pagoPA_Comuni_maggio_2023",
+        "codice_avviso_PNRR": "1.4.3"
+    },
+    {
+        "codice_IPA": "c_l474",
+        "nome_ente": "Comune_di_Turriaco",
+        "comune": "Turriaco",
+        "codice_ISTAT_comune": "031024",
+        "importo_finanziamento": 10172.0,
+        "codice_finanziamento": "3333",
+        "avviso_PNRR": "1.3.1_Piattaforma_Digitale_Nazionale_Dati_Comuni_ottobre_2022",
+        "codice_avviso_PNRR": "1.3.1"
+    },
+    {
+        "codice_IPA": "c_h017",
+        "nome_ente": "Comune_di_Predappio",
+        "comune": "Predappio",
+        "codice_ISTAT_comune": "040032",
+        "importo_finanziamento": 14000.0,
+        "codice_finanziamento": "4444",
+        "avviso_PNRR": "1.4.4_Adozione_SPID_CIE_Comuni_settembre_2022",
+        "codice_avviso_PNRR": "1.4.4"
+    },
+    {
+        "codice_IPA": "c_l474",
+        "nome_ente": "Comune_di_Turriaco",
+        "comune": "Turriaco",
+        "codice_ISTAT_comune": "031024",
+        "importo_finanziamento": 77897.0,
+        "codice_finanziamento": "5555",
+        "avviso_PNRR": "1.2_Abilitazione_al_Cloud_Comuni_luglio_2022",
+        "codice_avviso_PNRR": "1.2"
+    },
+    {
+        "codice_IPA": "c_l503",
+        "nome_ente": "Comune_di_Uri",
+        "comune": "Uri",
+        "codice_ISTAT_comune": "090076",
+        "importo_finanziamento": 17603.0,
+        "codice_finanziamento": "6666",
+        "avviso_PNRR": "1.4.3_pagoPA_Comuni_settembre_2022",
+        "codice_avviso_PNRR": "1.4.3"
+    },
+    {
+        "codice_IPA": "c_c167",
+        "nome_ente": "Comune_di_Castelletto_Uzzone",
+        "comune": "Castelletto_Uzzone",
+        "codice_ISTAT_comune": "004050",
+        "importo_finanziamento": 12747.0,
+        "codice_finanziamento": "7777",
+        "avviso_PNRR": "1.4.3_pagoPA_Comuni_maggio_2023",
+        "codice_avviso_PNRR": "1.4.3"
+    },
+    {
+        "codice_IPA": "c_f205",
+        "nome_ente": "Comune_di_Milano",
+        "comune": "Milano",
+        "codice_ISTAT_comune": "015146",
+        "importo_finanziamento": 97247.0,
+        "codice_finanziamento": "8888",
+        "avviso_PNRR": "1.4.5_Piattaforma_Notifiche_Digitali_Comuni_settembre_2022",
+        "codice_avviso_PNRR": "1.4.5"
+    },
+    {
+        "codice_IPA": "c_d903",
+        "nome_ente": "Comune_di_Gandellino",
+        "comune": "Gandellino",
+        "codice_ISTAT_comune": "016107",
+        "importo_finanziamento": 79922.0,
+        "codice_finanziamento": "9999",
+        "avviso_PNRR": "1.4.1_Esperienza_del_Cittadino_Comuni_settembre_2022",
+        "codice_avviso_PNRR": "1.4.1"
+    }
+]
